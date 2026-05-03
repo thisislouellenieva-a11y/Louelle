@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>LOUELLE</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>3D Artist / Filmmaker</h2>
+  <p>Stylized rigging, animation, and film projects</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I'm a 3D artist focused on stylized characters, rigging, and storytelling.
+    Currently working on a film project and building my portfolio.
+  </p>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <img src="assets/project1.jpg" alt="">
+      <h3>Film Project</h3>
+      <p>Short description of your film.</p>
+    </div>
+
+    <div class="card">
+      <img src="assets/project2.jpg" alt="">
+      <h3>Face Rig (Maya)</h3>
+      <p>Stylized rig using curves, no joints.</p>
+    </div>
+
+    <div class="card">
+      <img src="assets/project3.jpg" alt="">
+      <h3>Animation Test</h3>
+      <p>Facial animation + expressions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
